@@ -113,6 +113,7 @@ contagemRegresiva()
 // 15- Crie uma função que encontre o número 27.  
 function exibirNumero(){
     for (let i=1; i <= 27; i++){
+        if(i ===== 27){
     console.log(i)
 }
 }
@@ -149,4 +150,5 @@ function medi(a){
 }
 
 console.log(medi(2))
+
 
