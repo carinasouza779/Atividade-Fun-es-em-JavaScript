@@ -84,13 +84,15 @@ function somarNumeros() {
 console.log(somarNumeros()); // Resultado: 55
 
 // 12- Crie uma função que conte quantos pares existem até 10.
-function con (a){
-for (let i=1; i <= a; i++ ){
-    if (i % 2===0)
-    console.log(i)
+function contagemPares (){
+for (let i=1; i <= 10; i++ ){
+    if (i % 2===0){
+        contador ++
    }
+ } 
+    return contador
 }
-con (10);
+console.log(contagemPares())
 
 //  13- Crie uma função que exiba a tabuada de um número.  
 function contar (a){
@@ -145,4 +147,5 @@ console.log(media(20,50));
 function medi(a){
     return a * a
 }
+
 console.log(medi(2))
