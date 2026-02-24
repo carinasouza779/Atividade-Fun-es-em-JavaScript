@@ -97,7 +97,7 @@ console.log(contagemPares())
 //  13- Crie uma função que exiba a tabuada de um número.  
 function contar (a){
 for (let i=1; i <= 10; i++ ){
-    console.table(a * i)
+    console.log(a * i)
    }
 }
 contar (2);
@@ -149,3 +149,4 @@ function medi(a){
 }
 
 console.log(medi(2))
+
